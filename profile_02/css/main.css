@@ -1,0 +1,121 @@
+#home{
+    padding: 1rem 1rem;
+    padding-top: 10rem;
+    text-align: center;
+    
+    display:grid;
+    grid-template-areas:
+        " mm  nn "
+    ;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+    .home_left{
+        grid-area: mm;
+        width: 100%;
+
+        display: grid;
+        grid-template-areas:"aa"
+        "bb";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+
+    .home_right{
+        grid-area: nn;
+        width:100%;
+        
+        display: grid;
+        grid-template-areas: 
+            "cc"
+            "dd"
+        ;
+        justify-content: center;
+    }
+
+
+
+        .home_left1{
+            grid-area: aa;
+            display:flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+        }            
+            .sub_txt{
+                font-family: 'Noto Sans KR', sans-serif;
+                display:flex;
+                justify-content: left;
+                margin-left: 1.1rem;
+                font-size: 1.3rem;
+            }
+
+            .main_txt{
+                font-family: 'Noto Serif Display', serif;
+                display:flex;
+                justify-content: left;
+                font-size: 5.5rem;
+                margin-top: -0.7rem;
+                margin-left: 1rem;
+            }
+
+
+        .home_left2 {
+            grid-area: bb;
+            position: relative;
+            width: 200px;
+            height: 50px;
+            line-height:100px;
+        }
+            .contact_txt {
+                position: absolute;
+                left: -2px;
+                top: 10px;
+                width: 200px;
+                height: 50px;
+                z-index: 999;
+                font-weight: 500;
+                font-size:1.2rem;
+                font-family: 'Noto Sans KR', sans-serif;
+                font-weight: bold;
+            }
+
+            .contact_circle {
+                position: absolute;
+                left:22px;
+                top: 12px;
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                background: var(--color-orange);
+                z-index: 1;
+            }
+
+
+
+            .home_avatar{
+                grid-area: cc;
+                width: 100%;
+
+                
+            }
+            
+            .home_txt{
+                grid-area: dd;
+                width: 100%;
+                margin-bottom:30px;
+            }
+                .section_txt{
+                    font-family: 'Noto Serif Display', serif;
+                    display:flex;
+                    justify-content: right;
+
+                }
+                .section_sub_txt{
+                    font-family: 'Noto Sans KR', sans-serif;
+                    display:flex;
+                    justify-content: right;
+                    
+                }

@@ -1,0 +1,100 @@
+:root{
+    --color-orange:#ff5f1f;
+}
+
+
+
+/*구글아이콘 햄버거*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+/*구글폰트*/
+html, body{ 
+    font-family: 'DM Serif Display', serif'Noto Sans KR', sans-serif;
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, ul{ margin:0; padding:0;}
+/*ul{list-style:none;}*/
+a{
+  text-decoration:none; color:black;
+  font-family: serif'Noto Sans KR', sans-serif;
+}
+
+
+  /*header*/
+  .header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background: white;
+    padding: 1rem;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:9999;
+    box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08);
+  }
+    .header_logo{
+      height:80px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+      .header_logo_img{
+        width:150px;
+        height:50px;
+      }
+
+    .header_nav{
+      width:60%;
+      height:80px;
+      background: #ffffff;
+
+      display: flex;
+      justify-content: space-between;
+      
+    }
+        .blank1{
+          display: flex;
+          justify-content: center;
+          width: 10rem;
+          
+        }
+        .header_menu{
+          display:flex;
+          justify-content:center;
+          align-items: center;
+        }
+          .header_menu_item{
+            display: block;
+            padding: 7px 18px;
+            font-weight: bold;
+            border-bottom: 1px solid transparent;
+          }
+          .header_menu_item:hover{
+            border-bottom: 4px solid var(--color-orange);
+          }
+          
+          .hamburger{ display: none;}
+
+
+
+
+
+
+
+    
+
+
+
+      

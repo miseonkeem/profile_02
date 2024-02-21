@@ -1,0 +1,109 @@
+#work{
+    position:relative;
+    clear:both;
+    width:100%;
+    height:1100px;
+
+}
+
+
+.work_left{
+    position:relative;
+    float:left;
+    width:30%;
+    height:1100px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+    .work_left_txt{
+        position:relative;
+        clear:both;
+        width:300px;
+        height:auto;
+        margin-left:3rem;
+    }
+        
+        .work_main{
+            display: flex;
+            font-family:'Noto Serif Display', serif;
+            font-size: 3rem;
+            width: 100%; 
+            
+        }    
+        .work_sub1{
+            display: flex;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 1rem;
+            color: #333;
+        }
+
+    .work_right{
+        position:relative;
+        float:left;
+        display: flex;
+        flex-flow: column nowrap;
+        width:70%;
+        height:1100px;
+        margin: 0 auto;                        
+        justify-content: center;
+        align-items: center;
+    }
+        .category{
+            position: relative;
+            width:100%;
+            height:100px;
+            gap: 30px;
+            line-height: 80px;
+            display:flex;
+            flex-flow: row nowrap;
+            justify-content:center;
+            text-align: center;
+
+        }
+
+        .category_button{
+            position: relative;
+            width:100px;
+            height: 30px;
+            line-height: 30px;
+            
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 0.8rem;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 15px;
+            border:2px solid black;
+            background-color: #fff;
+
+        }
+
+        .category_button:hover{
+            color:var(--color-orange);
+            background: #000;
+        }
+        /* .category_selected{
+            background-color: #fff;
+            color: #000;
+        } */
+
+
+    .project_all{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 5px;
+
+        width:70%;
+        height:auto;
+    }
+
+        .project{
+            width:100%;
+        }
+
+        .project img{
+            width:100%;
+        }

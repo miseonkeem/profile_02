@@ -1,0 +1,111 @@
+/*개인 포폴 스킬*/
+#skills{
+    position:relative;
+    clear:both;
+    width:100%;
+    height:650px;
+}
+        .skills_left{
+            position:relative;
+            float:left;
+            display: flex;
+            flex-flow: column nowrap;
+            width:40%;
+            height:650px;
+            
+            display:flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+
+    
+        }
+            .skills_left_txt{
+                position:relative;
+                clear:both;
+                width:300px;
+                height:auto;
+                margin-left:3rem;
+            }
+    
+         .skills_main {
+                position: relative;
+                float:left;
+                font-family:'Noto Serif Display', serif;
+                font-size: 3rem;
+                width: 100%;
+
+            }
+                .font_dot{
+                    color: var(--color-orange);
+                    font-size:3rem;
+                }
+    
+    
+            .skills_sub1 {
+                position:relative;
+                clear:both;
+                width: 200px;
+                font-family: 'Noto Sans KR', sans-serif;
+                font-size: 1rem;
+                margin-top: 0.5rem;
+                color: #000000;
+            }
+    
+    .skills_content{
+        position:relative;
+        float:left;
+        display: flex;
+        flex-flow: column nowrap;
+        width:60%;
+        height:600px;
+        justify-content:space-between;
+        
+    }   
+    
+        .skills_{
+            font-family:'Noto Serif Display', serif;
+            margin: 1rem;
+            position:relative;
+
+        }
+            .skills_title{
+                margin-left: 0.8rem;   
+            }
+            
+            .font_dot2{
+                color:var(--color-orange);
+                font-size:2rem;
+            }
+
+            .skills_bar_all{
+                position:relative;
+                clear:both;
+            }
+
+                .skills_bar{
+                    display: flex;
+                    flex-direction:column;
+                    width:60%;
+                    padding: 1rem;
+                    gap: 0.3rem;
+
+                }
+                    .bar_text{
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 0.8rem;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: bold;
+                    }
+
+                    .bar_bg{
+                        width:100%;
+                        height:6px;
+                        background-color: #fff;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                    }
+                        .bar_value{
+                        height: 6px;
+                        background-color:#000; 
+                        }

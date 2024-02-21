@@ -1,0 +1,222 @@
+ /*
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  
+  }아이콘 */
+
+
+
+#about{
+    position:relative;
+    clear:both;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+
+    /* display:grid;
+    grid-template-areas: 
+        "aa bb" 
+    ;
+    grid-template-columns: 40% 60%;
+    margin: 8rem 2rem; */
+}
+
+
+    .about_left{
+        position:relative;
+        float:left;
+        width:40%;
+        height:600px;
+        
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+
+    }
+        .about_left_txt{
+            position:relative;
+            clear:both;
+            width:100%;
+            height:auto;
+            margin-left:3rem;
+            
+        }
+
+     .about_main {
+            position: flex;
+            font-family:'Noto Serif Display', serif;
+            font-size: 3rem;
+            width: 100%;
+
+        }
+            .font_dot{
+                color: var(--color-orange);
+                font-size:3rem;
+            }
+
+
+        .about_sub1 {
+            grid-area: aa;
+            display: flex;
+            flex-direction: start;
+            width: 200px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+            color: #000000;
+
+        }
+
+
+        .about_sub2 {
+            grid-area: aa;
+            width: 200px;
+            height: 100px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 200;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            color: #000;
+        }
+
+        .about_sub3 {
+            grid-area: aa;
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 200px;
+            height: 200px;
+            font-weight: 200;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            color: #000;
+        }
+
+
+    .about_right{
+        position:relative;
+        float:right;
+        display: flex;
+        flex-flow: row nowrap;
+        width:60%;
+        height:600px;
+    }
+
+        .about_right_01{
+            position:relative;
+            clear:both;
+            width:50%;
+            height:550px;
+            margin-top:50px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+        }
+                
+            .about_right_list1{
+                position: relative;
+                float: left;
+                width: 100%;
+                height: 300px;
+                
+            }
+            .about_right_list2{
+                position: relative;
+                float: left;
+                width: 100%;
+                height: 300px;
+            }
+
+        .about_right_02{
+            position:relative;
+            clear:both;
+            width:50%;
+            height:550px;
+            margin-top:50px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+        }
+
+            .about_right_list3{
+                position: relative;
+                float: left;
+                width: 400px;
+                height: 300px;
+            }
+            .about_right_list4{
+                position: relative;
+                float: left;
+                width: 400px;
+                height: 300px;
+            }
+            .about_ed{
+                font-family:'Noto Serif Display', serif;
+                margin-left: 0.8rem;  
+            }
+
+            .about_ex{
+                font-family:'Noto Serif Display', serif;
+                margin-left: 0.8rem;   
+            }
+
+            .about_aw{
+                font-family:'Noto Serif Display', serif;
+                margin-left: 0.8rem;  
+            }
+            .about_li{
+                font-family:'Noto Serif Display', serif;
+                margin-left: 0.8rem;  
+            }
+                .about_list{
+                    font-size:0.8rem;
+                    margin-left: 2rem;
+                    line-height: 25px;
+                }
+
+
+    
+
+
+/*
+
+
+.about_content{
+    grid-area: bb;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width:100%;
+    gap: 50px;
+    
+}
+    .about_box{
+        position: relative;
+        width:600px;
+        height:11rem;
+        border: 1px solid #333;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        
+    }
+
+    
+        .about_icon{
+            margin: 0.5rem;
+            transition: all 300ms;
+        }
+            .about_box:hover .about_icon{
+                transform: rotate(-15deg) scale(1.2);
+            }
+
+        .about_title{ 
+            font-size:1.2rem;
+            margin-top: -1rem;
+        }
+        .about_sub{ 
+            font-size:1rem;
+        }
+
+
+*/
